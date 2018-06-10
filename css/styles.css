@@ -42,8 +42,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 }
 #footer {
-	/* position: absolute;
-	bottom: 0; */
   background-color: #444;
   color: #aaa;
   font-size: 8pt;
@@ -60,6 +58,14 @@ nav {
   text-align:center;
 	padding-top: 15px;
 }
+
+/* Minor Breaking Point at 399 */
+@media screen and (min-width: 399px) {
+  nav {
+    height: 40px;
+  }
+}
+
 nav h1 {
   margin: auto;
 }
@@ -110,7 +116,6 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-	/* position: absolute; */
   width: 100%;
   background-color: #3397DB;
   align-items: center;
@@ -120,8 +125,17 @@ nav h1 a {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-
+	margin-bottom: 0;
 }
+
+/* Minor Breaking Point at 399 */
+@media screen and (min-width: 399px) {
+	.filter-options h2 {
+		padding: 15px 0 0 10px;
+		margin-bottom: 0;
+	}
+}
+
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
@@ -185,6 +199,20 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/* Minor Breaking Point at 450 to 549 */
+@media screen and (min-width: 450px) and (max-width: 599px) {
+	#restaurants-list li {
+		width: auto;
+		margin: 0 0 10px 0!important;
+		border: none;
+	}
+
+	#restaurants-list {
+		background-color: #fff;
+		padding: 30px 25px 60px;
+	}
 }
 
 /* ====================== Restaurant Details ====================== */
