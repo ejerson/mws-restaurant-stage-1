@@ -128,7 +128,7 @@ nav h1 a {
 	margin-bottom: 0;
 }
 
-/* Minor Breaking Point at 399 */
+/* Minor Breaking Point at min-width 399 */
 @media screen and (min-width: 399px) {
 	.filter-options h2 {
 		padding: 15px 0 0 10px;
@@ -157,8 +157,7 @@ nav h1 a {
   text-align: center;
 }
 #restaurants-list li {
-  background-color: #fff;
-  border: 2px solid #ccc;
+  background-color: #f3f3f3;
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
@@ -205,12 +204,12 @@ nav h1 a {
 @media screen and (min-width: 450px) and (max-width: 599px) {
 	#restaurants-list li {
 		width: auto;
-		margin: 0 0 10px 0!important;
-		border: none;
+		margin: 10px auto 10px auto;
+		min-width: 70%;
+		max-width: 80%;
 	}
 
 	#restaurants-list {
-		background-color: #fff;
 		padding: 30px 25px 60px;
 	}
 }

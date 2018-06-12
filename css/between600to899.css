@@ -2,18 +2,16 @@
 /* CSS Document */
 
 /* ====================== Restaurant Listing ====================== */
-
 #restaurants-list {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-color: #fff;
   padding: 0;
-
 }
 
 #restaurants-list li {
     margin: 10px auto 10px auto;
-    border: none;
+    padding: 0;
     align-items: center;
-
+    min-width: 50%;
+    max-width: 80%;
 }

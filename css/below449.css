@@ -1,14 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* ====================== Navigation ====================== */
-
-
-
-
-
 /* ====================== Map ====================== */
-
 .filter-options h2{
   margin: 0 0 0 21px;
   padding-top: 10px;
@@ -31,5 +24,41 @@
   min-height: 380px;
   padding: 0 0 20px 0;
   text-align: center;
-  border: none;
+}
+
+/* ====================== Restaurant Details ====================== */
+
+#maincontent {
+position: relative;
+width: 100%;
+
+}
+#breadcrumb {
+  width: 100%;
+  position: relative;
+}
+.inside #map-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.inside #footer {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  padding: 15px 0 15px 0;
+}
+
+#restaurant-container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#reviews-container {
+  position: relative;
+  bottom: 10%;
+  width: 100%;
+  padding: 0;
 }

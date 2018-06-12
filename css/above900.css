@@ -1,0 +1,21 @@
+#restaurants-list {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 0;
+
+}
+
+#restaurants-list li {
+    margin: 10px auto 10px auto;
+    align-items: center;
+    padding: 0;
+    min-width: 80%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
