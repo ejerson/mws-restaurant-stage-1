@@ -30,41 +30,61 @@
 
 #breadcrumb {
   width: 100%;
-  position: relative;
+  position: static!important;
+  text-align: left;
 }
 
-/* .inside #map-container {
-  position: relative;
+.inside #map-container {
+  position: static;
   width: 100%;
   height: 400px;
-  margin-top: 0;
-} */
-
-/* div #map {
-  position: relative;
-  width: 100%;
-  height: 400px;
+  margin-top: 140px;
 }
-#breadcrumb {
+
+.inside #footer {
+  bottom: 0;
+  position: relative;
   width: 100%;
+  padding: 15px 0 15px 0;
 }
 
 #restaurant-container {
-  position: relative;
+  position: static;
   width: 100%;
-  padding: 0;
+  padding: 5px;
+  text-align: center;
 }
 
- .inside #footer {
-   bottom: 0;
-   position: relative;
-   width: 100%;
-   padding: 15px 0 15px 0;
- }
+/* Minor break point at 397 */
+@media screen and (min-width: 397px) {
+  .inside #map-container {
+    margin-top: 100px;
+  }
+}
 
- #reviews-container {
-   position: relative;
-   bottom: 10%;
-   width: 100%;
-   padding: 0;
- } */
+#restaurant-img, #restaurant-cuisine {
+	width: 100%;
+}
+
+#reviews-container {
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+}
+
+#reviews-container h2 {
+  text-align: center;
+}
+
+#reviews-list li p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+#restaurant-hours td {
+  width: 200px;
+  word-wrap: break-word;
+  font-size: 15px;
+  text-align: left;
+  border-top: dashed #e3d8d8 thin;
+}

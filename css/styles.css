@@ -215,15 +215,8 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
+
 .inside header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-
-/* .inside header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -312,4 +305,4 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
-} */
+}
