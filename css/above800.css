@@ -1,0 +1,36 @@
+.inside #footer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#reviews-container, #restaurant-container {
+  padding: 0 0 80px 20px;
+  position: static;
+}
+
+#reviews-container li {
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  nav {
+    max-width: 1000px;
+  }
+
+  #breadcrumb {
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+  .inside #map-container {
+    right: calc((100% - 1000px)/2);
+    width: 500px;
+  }
+}
