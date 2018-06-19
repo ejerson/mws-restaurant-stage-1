@@ -2,8 +2,6 @@
 
   #breadcrumb {
     width: 100%;
-    position: static!important;
-    text-align: left;
   }
 
   .inside #map-container {
@@ -14,19 +12,18 @@
   }
 
   .inside #footer {
-    bottom: 0;
     position: relative;
     width: 100%;
     padding: 15px 0 15px 0;
   }
 
   #restaurant-container {
-    position: static;
     width: 100%;
     padding: 5px;
     text-align: center;
   }
 
+/* TODO STARTS HERE */
   #restaurant-img, #restaurant-cuisine {
   	width: 100%;
   }

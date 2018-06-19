@@ -13,7 +13,6 @@
 }
 
 /* ====================== Restaurant Listing ====================== */
-
 #restaurants-list {
   padding: 0;
 }
@@ -25,63 +24,3 @@
   padding: 0 0 20px 0;
   text-align: center;
 }
-
-/* ====================== Restaurant Details ====================== */
-
-  /* #breadcrumb {
-    width: 100%;
-    position: static!important;
-    text-align: left;
-  }
-
-  .inside #map-container {
-    position: static;
-    width: 100%;
-    height: 400px;
-    margin-top: 140px;
-  }
-
-  .inside #footer {
-    bottom: 0;
-    position: relative;
-    width: 100%;
-    padding: 15px 0 15px 0;
-  }
-
-  #restaurant-container {
-    position: static;
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-  }
-
-  #restaurant-img, #restaurant-cuisine {
-  	width: 100%;
-  }
-
-  #reviews-container {
-    padding: 5px;
-    margin: auto;
-    width: 100%;
-  }
-
-  #reviews-container h2 {
-    text-align: center;
-  }
-
-  #reviews-list li p {
-    font-size: 15px;
-    padding: 5px;
-  }
-
-  #restaurant-hours {
-    margin: auto;
-  }
-
-  #restaurant-hours td {
-    max-width: 160px;
-    word-wrap: break-word;
-    font-size: 15px;
-    text-align: center;
-    border-top: dashed #e3d8d8 thin;
-  } */
