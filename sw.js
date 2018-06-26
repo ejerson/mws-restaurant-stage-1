@@ -47,16 +47,6 @@ self.addEventListener('activate', event => {
   );
 });
 
-/** Takes control of what the browser receives */
-// self.addEventListener('fetch', event => {
-//   event.respondWith(
-//     caches.match(event.request).then(response => {
-//       if (response) return response;
-//       return fetch(event.request);
-//     })
-//   );
-// });
-
 self.addEventListener("fetch", event => {
   /** Saves the event request */
   let cacheRequest = event.request;
